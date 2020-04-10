@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<!-- Please do not move/edit code below this line -->
+	<Import Project="$(RepoEngPath)/mgmt/AzSdk.reference.props" />
+	<!-- Please do not move/edit code below this line -->
+
+	<PropertyGroup>
+		<PackageId>Microsoft.Azure.Management.ContainerRegistry</PackageId>
+		<Description>Provides management capabilities for Azure Container Registry.</Description>
+		<Version>5.0.0-preview</Version>
+		<AssemblyName>Microsoft.Azure.Management.ContainerRegistry</AssemblyName>
+		<PackageTags>Microsoft Azure Container Registry;Container Registry;</PackageTags>
+		<PackageReleaseNotes>
+			<![CDATA[
+        1) Add support for ACR Transfer (Preview)
+      ]]>
+		</PackageReleaseNotes>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFrameworks>net452;net461</TargetFrameworks>
+	</PropertyGroup>
+</Project>
