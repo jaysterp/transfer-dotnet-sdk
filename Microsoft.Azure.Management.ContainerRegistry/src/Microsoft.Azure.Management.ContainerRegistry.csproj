@@ -1,8 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-	<!-- Please do not move/edit code below this line -->
-	<Import Project="$(RepoEngPath)/mgmt/AzSdk.reference.props" />
-	<!-- Please do not move/edit code below this line -->
-
 	<PropertyGroup>
 		<PackageId>Microsoft.Azure.Management.ContainerRegistry</PackageId>
 		<Description>Provides management capabilities for Azure Container Registry.</Description>
